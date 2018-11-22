@@ -32,7 +32,7 @@ function calculatesFarePrice(start, end){
     return 0;
   } else if (total <= 1600) {
     return cost * total;
-  } else if (total >= 2000 && total <= 2500) {
+  } else if (total >= 2000) {
     return 25;
   }
   
